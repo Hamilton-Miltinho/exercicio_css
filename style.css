@@ -1,0 +1,41 @@
+/*ELEMENTOS:
+Nome da tag, exemplo: h1 {...} 
+ID da tag, representado por #: #meuId
+Classe da tag, usamos o ponto: .minhaClasse{}
+
+Podemos selecionar mais de um elemento por vez: .title, .subtitle{...} 
+Podemos navegar entre os elementos: .header .title{...} 
+Nesse exemplo, estilizamos o elemento .title que está dentro do elemento .header
+
+Pseudo-classes Podemos estilizar além dos elementos, seu estado. Fazemos isso com as pseudo-classes. 
+Por exemplo, quando passamos o mouse sobre um link e ele muda de cor, essa mudança é feita através 
+da estilização de pseudoclasses. seletor:estado{ ... } Ou quando passamos o mouse sobre as 
+tags H1 o texto fica na cor vermelha: h1:hover { color: red; }
+
+Lista das principais pseudo-classes: 
+1) :first-child–use para selecionar a primeira ocorrência do elemento. 
+2) :last-child–use para selecionar a última ocorrência do elemento. 
+3) :hover–use para estilizar o elemento quando passarmos o mouse por cima. 
+4) :focus–use para estilizar um elemento quando o foco estiver nele. 
+5) :checked–use para estilizar inputs do tipo checkbox e radio, quando estes estiverem marcados. 
+6) :required–use para estilizar inputs que sejam obrigatórios. 
+7) :optional–use para estilizar inputs que sejam opcionais.
+
+Box Model
+É o conjunto de fora para dentro: Conteúdo, Espaçamento, Bordas e Margem.
+*/
+
+body {
+    background-color: black;
+    color: white;
+}
+
+/*classes */
+
+.botaoenvio {
+    background-color: green;
+}
+
+.botaoapagar {
+    background-color: red;
+}
